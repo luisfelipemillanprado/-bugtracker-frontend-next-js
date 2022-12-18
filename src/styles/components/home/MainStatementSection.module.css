@@ -1,0 +1,110 @@
+/*-----------------------------------*/
+.statement_section {
+  width: 100%;
+  height: auto;
+  padding-top: 10.5rem;
+  padding-bottom: 1.6rem;
+}
+
+/*---------------statement_section__container_all--------------------*/
+.statement_section__container_all {
+  width: 100%;
+  height: 20.0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-----------------------------1---------------------------------------*/
+/*---------------container_all__container_main_text--------------------*/
+.statement_section__container_main_text {
+  width: 70%;
+  min-width: 87.43rem;
+  height: 12.0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*---------------container_main_text__wrapper_main_text--------------------*/
+.statement_section__wrapper_main_text {
+  width: 100%;
+  height: 12.0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*---------------wrapper_main_text__main_text--------------------*/
+.statement_section__main_text {
+  font-family: var(--font-family-3);
+  font-size: 5rem;
+  line-height: 6rem;
+  font-weight: 700;
+  letter-spacing: -0.05rem;
+  color: var(--home-main-text);
+}
+
+/*---------------container_all__span_text--------------------*/
+.statement_section__span_text {
+  margin-left: 2.2rem;
+}
+
+/*-----------------------------2---------------------------------------*/
+/*---------------container_all__container_secondary_text--------------------*/
+.statement_section__container_secondary_text {
+  width: 70%;
+  min-width: 58.747rem;
+  height: 4.8rem;
+  padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*---------------container_secondary_text__wrapper_secondary_text--------------------*/
+.statement_section__wrapper_secondary_text {
+  width: 100%;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*---------------wrapper_secondary_text__secondary_text--------------------*/
+.statement_section__secondary_text {
+  font-family: var(--font-family-3);
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  color: var(--home-main-text);
+}
+
+/*-----------------------------3---------------------------------------*/
+/*---------------container_all__container_tertiary_text--------------------*/
+.statement_section__container_tertiary_text {
+  width: 70%;
+  min-width: 44.231rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*---------------container_tertiary_text__wrapper_tertiary_text--------------------*/
+.statement_section__wrapper_tertiary_text {
+  width: 100%;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statement_section__tertiary_text {
+  font-family: var(--font-family-3);
+  font-size: 2rem;
+  line-height: 3.2rem;
+  color: var(--home-main-text);
+}
+
+/*-----------------------------Fin---------------------------------------*/

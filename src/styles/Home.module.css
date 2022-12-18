@@ -1,0 +1,14 @@
+/*-----------------------------------*/
+.header {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: 556;
+  background-color: var(--just-white);
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  background-color: var(--just-white);
+}

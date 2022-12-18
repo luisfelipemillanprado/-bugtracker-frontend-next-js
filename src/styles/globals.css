@@ -1,0 +1,57 @@
+/*---------------Variables--------------------*/
+:root {
+  --font-family-1: 'Roboto', helvetica, arial, sans-serif;
+  --font-family-2: 'Roboto', 'Times New Roman', Times, serif;
+  --font-family-3: 'DM Sans', sans-serif;
+  --generic-font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --off-white: #F4F4F7;
+  --just-white: #ffffff;
+  --home-header-border-bottom: #eef6fe;
+  --home-bottom-blue: #6c6cff;
+  --home-bottom-blue-hover: #5a5ad5;
+  --home-main-text: #333333;
+  --home-tags-grey: #e7e7e79c;
+  --home-tag-color-1: #a25ddc;
+  --home-tag-color-2: #00c875;
+  --home-tag-color-3: #ff158a;
+  --home-tag-color-4: #ec5d2b;
+  --home-tag-color-5: #579bfc;
+  --home-tag-color-6: #ff7575;
+  --home-tag-color-7: #68a1bd;
+  --home-tag-color-8: #fdab3d;
+  --home-tag-color-9: #4f2696;
+  --home-tag-color-10: #4eccc6;
+  --home-footer-grey: #f5f6f8;
+  --modal-login: #F4F4F7;
+  --modal-login-inputs: #cacaca;
+  --modal-login-button: #5a5ad5;
+  --layout-header-background: #292f4c;
+  --layout-add-on-plans-background: #258750;
+  --layout-add-on-plans-background-hover: #007038;
+  --layout-header-items-background-hover: #0d0f18;
+  --layout-main-top-bar-under-line-color: #ebebeb;
+  --layout-main-top-bar-button-background-hover: #e6e9ef;
+  --layout-main-top-bar-description-text-color: #676879;
+  --layout-main-top-bar-underline-button-color: #0073ea;
+  --layout-main-top-bar-secondary-button-background-hover: #0060b9;
+}
+
+/*-----Variables-End-----*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: var(--generic-font-family);
+  font-size: 62.5%;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
